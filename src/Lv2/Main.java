@@ -37,4 +37,15 @@ public class Main {
                 System.out.println( menuItems.get(1).MenuInformation());
             }
             else if(MenuNumber == 3){
-          
+                System.out.println( menuItems.get(2).MenuInformation());
+            }
+            else if(MenuNumber == 4){
+                System.out.println( menuItems.get(3).MenuInformation());
+            }
+            else if(MenuNumber == 0) {
+                System.out.println("0. 종료          | 종료");
+            }
+        }while(MenuNumber != 0);// 입력된 숫자에 따른 처리
+        System.out.println("프로그램을 종료합니다.");// 프로그램을 종료
+
+    }}

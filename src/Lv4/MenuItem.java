@@ -1,9 +1,9 @@
-package Lv2;
+package Lv4;
 
 public class MenuItem {
-        String name;
-        double price;
-        String explain;
+    String name;
+    double price;
+    String explain;
 
     MenuItem(String name, double price, String explain){
         this.name = name;
@@ -15,6 +15,6 @@ public class MenuItem {
     }
 
     public String getName() {
-            return name;
+        return name;
     }
 }
