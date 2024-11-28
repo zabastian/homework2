@@ -1,7 +1,7 @@
 
 -기술 스택
-Java 11 이상
-리스트 관리 (ArrayList)
+Java 11 이상,
+리스트 관리 (ArrayList),
 사용자 입력 처리 (Scanner)
 
 -트러블 슈팅
